@@ -1,0 +1,23 @@
+<h1>Employees</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Address</th>
+    <th>Phone #</th>
+  </tr>
+  <tr *ngFor="let employee of employees">
+    <td>
+      {{ employee.name }}
+    </td>
+    <td>
+      {{ employee.address }}
+    </td>
+    <td>
+      {{ getPhoneNumber(employee.phoneNumber) }}
+    </td>
+    <td>
+      {{ getZipCode(employee.zipCode) }}
+    </td>
+  </tr>
+</table>
