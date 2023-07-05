@@ -10,6 +10,7 @@ export class PhoneNumberPipe implements PipeTransform {
       return '-';
     }
 
-    return `${value.slice(0, 3)}-${value.slice(3, 6)}-${value.slice(6, 10)}`;
+    // TODO: Make phone number formatting happen!
+    return value;
   }
 }
