@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 
-import { Customer } from 'src/app/models/customer.model';
-import { EmployeeService } from 'src/app/services/employee.service';
-import { PhoneNumberPipe } from 'src/app/pipes/phone-number.pipe';
+import { Customer } from '../../models/customer.model';
+import { EmployeeService } from '../../services/employee.service';
+import { PhoneNumberPipe } from '../../pipes/phone-number.pipe';
 
 @Component({
   selector: 'app-employee',

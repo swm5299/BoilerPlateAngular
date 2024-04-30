@@ -1,7 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { EmployeeComponent } from './employee.component';
-import { PhoneNumberPipe } from 'src/app/pipes/phone-number.pipe';
+import { PhoneNumberPipe } from '../../pipes/phone-number.pipe';
 
 describe('EmployeeComponent', () => {
   let component: EmployeeComponent;
