@@ -1,6 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { CustomerComponent } from './customer.component';
+import { PhoneNumberPipe } from 'src/app/pipes/phone-number.pipe';
 
 describe('CustomerComponent', () => {
   let component: CustomerComponent;
@@ -8,7 +9,8 @@ describe('CustomerComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ CustomerComponent ]
+      declarations: [ CustomerComponent ],
+      providers: [PhoneNumberPipe]
     })
     .compileComponents();
 
